@@ -76,9 +76,9 @@ DeskTodo 只做一件事：**把你的待办，好好地呈现在 Windows 桌面
 **桌面图标整理框**
 
 桌面上几十个快捷方式，自动按用途分成 6 类。
-可以顺带把原来乱糟糟的桌面图标藏起来。
+没有卡片背景 —— 图标看着还是摆在桌面上，只是被分了组。
 
-<img src="docs/images/hidden-icons.png" alt="桌面图标整理框">
+<img src="docs/images/iconbox.png" alt="桌面图标整理框">
 
 </td>
 <td width="50%" valign="top">
