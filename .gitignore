@@ -1,0 +1,41 @@
+# 这个仓库只放 README、使用条款和截图。
+# 下面这些是兜底 —— 万一有人把源码或安装包拷进来，别让它进 git。
+
+# 安装包走 GitHub Release 附件，不进版本库
+# （git 会永久保留每个版本的完整副本，几十 MB 的二进制发几版仓库就废了）
+*.exe
+*.msi
+*.zip
+*.7z
+
+# 源代码与构建产物
+src/
+installer/
+dist/
+dist-installer/
+bin/
+obj/
+*.sln
+*.csproj
+*.cs
+*.xaml
+
+# 本地数据与机密
+*.db
+*.db-shm
+*.db-wal
+*.token
+*.pdb
+secrets.json
+docs/sample-sync.json
+
+# 内部文档
+方案设计.md
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+
+# 发布用的辅助文件，不进版本库
+发布步骤.txt
+release-notes.md
